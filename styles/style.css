@@ -1,0 +1,158 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #e3f4fc;
+	height: 100%;
+}
+
+.center-content {
+	position: relative;
+	display: flex;
+	width: 60vw;
+	height: 50vh;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	box-shadow: 12px 8px 8px 8px#d9e3ee;
+	border-top-right-radius: 25px 25px;
+	border-bottom-right-radius: 25px 25px;
+}
+
+.center-content * {
+	display: block;
+}
+
+label {
+	margin-bottom: 4px;
+}
+
+input[type] {
+	padding: 8px;
+	border-radius: 3px;
+}
+
+input[type="number"] {
+	width: 100%;
+}
+
+.group-btn {
+	border: 0px;
+}
+
+fieldset .radio-btn:first-child {
+	margin-bottom: 10px;
+}
+
+.radio-btn {
+	padding: 8px;
+	border: 1px solid;
+	border-radius: 3px;
+}
+
+input[type="radio"],
+input[type="radio"] + p {
+	display: inline-block;
+}
+
+.div-input {
+	margin:  20px 20px 8px 20px;
+	display: block;
+}
+
+.invisible {
+    display: none;
+}
+
+.focus-btn {
+    background-color: #fafae0;
+    border-color: #d7de38;
+}
+
+
+
+aside {
+	/* border: solid 1px; */
+	width: 50%;
+}
+
+.aside-calc-content {
+	padding: 30px;
+	background-color: #133040;
+	border: solid 0.5px;
+	border-top-right-radius: 25px 25px;
+	border-bottom-right-radius: 25px 25px;
+	border-bottom-left-radius: 70px 70px;
+}
+
+
+#calc-value {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+	padding: 5px 0px;
+    font-size: 16px;
+	border-radius: 20px;
+    border: 0.5px;
+	margin: 20px;
+    background-color: #d9db30;
+    color: #2c3900;
+    width: 60%;
+}
+
+.first-line {
+	display: flex;
+	margin: 15px 20px;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.first-line a {
+	text-decoration: underline dotted;
+}
+
+h2 {
+	color: #f1ffff;
+}
+
+p {
+	color: #7995aa;
+}
+h2 {
+	margin-bottom: 20px;
+}
+
+.focus-btn > input {
+    
+    accent-color: #d7de38;
+    border             : 2px solid #ddd;
+}
+
+#result-block {
+	background-color: #0e2431;
+	margin-top: 30px;
+	border-radius: 14px;
+}
+
+#month-repay-result{
+	padding: 15px;
+	color: #7d94a4;
+}
+
+
+#month-repay-result h1 {
+	color: #d9db30;
+	font-size: 5vw;
+}
+
+#total-repay-result {
+	padding: 15px;
+}
+
+
+#total-repay-result h4 {
+	color: #f7ffff;
+	font-size: 30px;
+}
